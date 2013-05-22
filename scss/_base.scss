@@ -16,3 +16,57 @@ p {
   	size: inherit;
   }
 }
+
+// Layout
+
+#container {
+  width: 100%;
+  margin: auto;
+}
+
+// Header
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 20px 0;
+  background-color: $white;
+  border: {
+    style: solid;
+    width: 0;
+    bottom: {
+      width: 1px;
+      color: lighten($gray, 10%);
+    }
+  }
+  #inner-header {
+    max-width: $rowWidth;
+    margin: auto;
+    #logo {
+      float: left;
+      display: block;
+      padding: {
+        right: 45px;
+      }
+    }
+    nav {
+      ul {
+        margin: 0;
+        padding: 19px 0;
+        li {
+          display: inline;
+          padding: 0 45px;
+          a {
+            font: {
+              size: 16px;
+            }
+            color: darken($gray, 30%);
+            text-decoration: none;
+          }
+        }
+      }
+    }
+  }
+}

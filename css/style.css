@@ -16,8 +16,6 @@ p {
   font-family: inherit;
   font-size: inherit; }
 
-/*
- * Grid system and layouts */
 #container {
   width: 100%;
   margin: auto; }
@@ -51,5 +49,7 @@ header {
           color: gray;
           text-decoration: none; }
 
+/*
+ * Grid system */
 /*
  * Responsive */
