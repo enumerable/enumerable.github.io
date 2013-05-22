@@ -80,6 +80,17 @@ section {
       section #team-members .member img {
         float: left;
         margin: 0 10px; }
+  section #projects {
+    border-style: solid;
+    border-width: 1px;
+    border-color: #e6e6e6; }
+    section #projects .project img {
+      margin-bottom: 10px; }
+    section #projects .project .name {
+      font-size: 22px; }
+
+footer {
+  margin-bottom: 100px; }
 
 /*
  * Grid system */

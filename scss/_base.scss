@@ -109,9 +109,35 @@ section {
       .name {
 
       }
-      .introduction {
+      .intro {
 
       }
     }
   }
+  #projects {
+    border: {
+      style: solid;
+      width: 1px;
+      color: lighten($gray, 10%);
+    }
+    .project {
+      img {
+        margin-bottom: 10px;
+      }
+      .name {
+        font: {
+          size: 22px;
+        }
+      }
+      .intro {
+
+      }
+    }
+  }
+}
+
+// Footer
+
+footer {
+  margin-bottom: 100px;
 }
