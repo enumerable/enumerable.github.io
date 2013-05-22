@@ -64,6 +64,12 @@ header[role="banner"] {
             -o-transition: color linear 1s;
             transition: color linear 1s; }
 
+#hero-unit {
+  max-width: 1024px;
+  margin: auto;
+  text-align: center;
+  font-size: 50px; }
+
 section {
   max-width: 1024px;
   margin: auto; }
@@ -88,6 +94,18 @@ section {
       margin-bottom: 10px; }
     section #projects .project .name {
       font-size: 22px; }
+
+#hero-unit {
+  padding-top: 100px; }
+
+#about {
+  padding-top: 100px; }
+
+#team-introduction {
+  padding-top: 100px; }
+
+#project-introduction {
+  padding-top: 100px; }
 
 footer {
   margin-bottom: 100px; }

@@ -84,6 +84,15 @@ header[role="banner"] {
 
 // Section
 
+#hero-unit {
+  max-width: $rowWidth;
+  margin: auto;
+  text-align: center;
+  font: {
+    size: 50px;
+  }
+}
+
 section {
   max-width: $rowWidth;
   margin: auto;
@@ -134,6 +143,22 @@ section {
       }
     }
   }
+}
+
+#hero-unit {
+  padding-top: 100px;
+}
+
+#about {
+  padding-top: 100px;
+}
+
+#team-introduction {
+  padding-top: 100px;
+}
+
+#project-introduction {
+  padding-top: 100px;
 }
 
 // Footer
