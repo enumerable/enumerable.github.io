@@ -12,21 +12,28 @@ body {
 
 p {
   font: {
-  	family: inherit;
-  	size: inherit;
+    family: inherit;
+    size: inherit;
   }
+}
+
+// Image
+
+img {
+  max-width: 100%;
 }
 
 // Layout
 
 #container {
   width: 100%;
-  margin: auto;
+  margin-top: 100px;
+  @include clearfix;
 }
 
-// Header
+// Headers
 
-header {
+header[role="banner"] {
   position: fixed;
   top: 0;
   left: 0;
@@ -64,8 +71,46 @@ header {
             }
             color: darken($gray, 30%);
             text-decoration: none;
+            &:hover {
+              color: darken($gray, 60%);
+              @include transition(color linear 1s)
+            }
           }
         }
+      }
+    }
+  }
+}
+
+// Section
+
+section {
+  max-width: $rowWidth;
+  margin: auto;
+  header {
+    margin: 30px;
+    text-align: center;
+    font: {
+      size: 30px;
+    }
+  }
+  #team-members {
+    border: {
+      style: solid;
+      width: 1px;
+      color: lighten($gray, 10%);
+    }
+    .member {
+      padding: 10px 0;
+      img {
+        float: left;
+        margin: 0 10px;
+      }
+      .name {
+
+      }
+      .introduction {
+
       }
     }
   }
