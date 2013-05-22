@@ -1,0 +1,18 @@
+/*
+ * Base styles like buttons, navigation, typography... */
+
+// Typography
+
+body {
+  font: {
+    family: $sansFontFamily;
+    size: $baseFontSize;
+  }
+}
+
+p {
+  font: {
+  	family: inherit;
+  	size: inherit;
+  }
+}

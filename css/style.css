@@ -2,3 +2,54 @@
  * Authors:
  * ?
  * code is poetry */
+/*
+ * Default settings for other scss files. */
+/*
+ * Mixins */
+/*
+ * Base styles like buttons, navigation, typography... */
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px; }
+
+p {
+  font-family: inherit;
+  font-size: inherit; }
+
+/*
+ * Grid system and layouts */
+#container {
+  width: 100%;
+  margin: auto; }
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 20px 0;
+  background-color: white;
+  border-style: solid;
+  border-width: 0;
+  border-bottom-width: 1px;
+  border-bottom-color: #e6e6e6; }
+  header #inner-header {
+    max-width: 1024px;
+    margin: auto; }
+    header #inner-header #logo {
+      float: left;
+      display: block;
+      padding-right: 45px; }
+    header #inner-header nav ul {
+      margin: 0;
+      padding: 19px 0; }
+      header #inner-header nav ul li {
+        display: inline;
+        padding: 0 45px; }
+        header #inner-header nav ul li a {
+          font-size: 16px;
+          color: gray;
+          text-decoration: none; }
+
+/*
+ * Responsive */

@@ -1,8 +1,9 @@
-// Default settings for other scss files.
+/*
+ * Default settings for other scss files. */
 
 // Grid and Layout
 
-$rowWidth: 1000px !default;
+$rowWidth: 1024px !default;
 
 // Colors
 
@@ -16,10 +17,19 @@ $shadow: rgb(0, 0, 0.1) !default;
 
 // Fonts
 
-$sansFontFamily: "Helvetica Neue", Helvetica, Arial, sans-serif;
-$serifFontFamily: Georgia, "Times New Roman", Times, serif;
-$monoFontFamily: Monaco, Menlo, Consolas, "Courier New", monospace;
+$sansFontFamily: "Helvetica Neue", Helvetica, Arial, sans-serif !default;
+$serifFontFamily: Georgia, "Times New Roman", Times, serif !default;
+$monoFontFamily: Monaco, Menlo, Consolas, "Courier New", monospace !default;
 
-$baseFontSize: 14px;
-$baseLineHeight: 20px;
-$baseFontFamily: $sansFontFamily;
+$baseFontSize: 14px !default;
+$baseLineHeight: 20px !default;
+$baseFontFamily: $sansFontFamily !default;
+
+// Paddings
+
+$paddingLarge: 11px 19px !default;
+$paddingSmall: 2px 10px !default;
+
+// Others
+
+$baseRadius: 4px !default;
