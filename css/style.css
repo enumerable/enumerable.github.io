@@ -35,11 +35,21 @@ header[role="banner"] {
   left: 0;
   right: 0;
   padding: 20px 0;
-  background-color: white;
   border-style: solid;
   border-width: 0;
   border-bottom-width: 1px;
-  border-bottom-color: #e6e6e6; }
+  border-bottom-color: #e6e6e6;
+  background-color:#F0F0F0;
+  background: white url('../img/bg-stripe.png') repeat scroll 0 0;
+  -webkit-box-shadow: 0 0 3px rgba(0, 0, 0, .05);
+  -moz-box-shadow: 0 0 3px rgba(0, 0, 0, .05);
+  -ms-box-shadow: 0 0 3px rgba(0, 0, 0, .05);
+  -o-box-shadow: 0 0 3px rgba(0, 0, 0, .05);
+  box-shadow: 0 0 3px rgba(0, 0, 0, .05);
+  border-bottom: 1px solid #EAEAEA;
+  width:100%;
+  overflow: visible;
+  z-index: 66; }
   header[role="banner"] #inner-header {
     max-width: 1024px;
     margin: auto; }
