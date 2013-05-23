@@ -38,8 +38,8 @@ header[role="banner"] {
   top: 0;
   left: 0;
   right: 0;
+  width: 100%;
   padding: 20px 0;
-  background-color: $white;
   border: {
     style: solid;
     width: 0;
@@ -48,6 +48,11 @@ header[role="banner"] {
       color: lighten($gray, 10%);
     }
   }
+  @include box-shadow(0 0 3px rgba(0, 0, 0, .05));
+  background-color: #F0F0F0;
+  background: white url('../img/bg-stripe.png') repeat scroll 0 0;
+  overflow: visible;
+  z-index: 99;
   #inner-header {
     max-width: $rowWidth;
     margin: auto;

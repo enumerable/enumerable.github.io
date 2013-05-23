@@ -34,12 +34,19 @@ header[role="banner"] {
   top: 0;
   left: 0;
   right: 0;
+  width: 100%;
   padding: 20px 0;
-  background-color: white;
   border-style: solid;
   border-width: 0;
   border-bottom-width: 1px;
-  border-bottom-color: #e6e6e6; }
+  border-bottom-color: #e6e6e6;
+  -webkit-box-shadow: 0 0 3px rgba(0, 0, 0, 0.05);
+  -moz-box-shadow: 0 0 3px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.05);
+  background-color: #F0F0F0;
+  background: white url("../img/bg-stripe.png") repeat scroll 0 0;
+  overflow: visible;
+  z-index: 99; }
   header[role="banner"] #inner-header {
     max-width: 1024px;
     margin: auto; }
