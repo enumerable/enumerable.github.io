@@ -14,11 +14,22 @@
 /* Landscape phone to portrait tablet */
 @media (max-width: 767px) {
 
+  header[role="banner"] {
+    #inner-header {
+      #logo {
+        margin-left: 20px;
+      }
+      nav {
+        display: none;
+      }
+    }
+  }
+
   .grid {
-    width: 100%;
+    width: 94%;
     min-width: 0;
-    margin-left: 0px;
-    margin-right: 0px;
+    margin-left: 3%;
+    margin-right: 3%;
     padding-left: 0px;
     padding-right: 0px;
   }
